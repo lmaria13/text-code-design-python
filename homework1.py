@@ -1,3 +1,15 @@
+# task 1
+
+from drawbot_skia.drawbot import oval, saveImage
+y = 130
+step = 130
+for i in range(6):
+    oval(450, y, 100, 100)
+
+    y = y + step
+    
+saveImage("task1.pdf")
+
 
 # task 2
 
